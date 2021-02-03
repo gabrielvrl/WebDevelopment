@@ -10,7 +10,7 @@
 
 ### This project consist in a calcutition on how many kg of steak/beef, beer and liquids (water, juice) is necessary to a barbecue.
 
-![Screenshot from 2021-02-02 21-56-14](https://user-images.githubusercontent.com/22225821/106682544-832f7e80-65a1-11eb-8a8e-080941c13ec4.png)
+![Screenshot from 2021-02-02 21-59-31](https://user-images.githubusercontent.com/22225821/106682764-f3d69b00-65a1-11eb-96ca-e84c5a88bf4a.png)
 
 ## Capture page
 
