@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+</head>
+
+<body>
+
+    <%- include('./partials/navbar.ejs', {title: "Users" })%>
+
+    <% for(let user of users) {%>
+        <% if(user.id % 2 == 0) {%> 
+            <h1><%=user.name%></h1> <!-- o = eh importante, se nao tiver o = ele nao mostra -->
+            <h3><%=user.phone%> </h3>
+        <% } %> 
+    <% } %> 
+    
+</body>
+</html>
