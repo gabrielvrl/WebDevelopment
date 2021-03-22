@@ -24,20 +24,6 @@ linkModel.save().then(doc => {
     console.log(err)
 })
 
-/* const personSchema = new mongoose.Schema({
-    name: String,
-    age: Number
-})
-
-const Person = mongoose.model('Person', personSchema)
-
-let person = new Person({
-    name: "Gabriel",
-    age: 23
-})
-
-person.save().then(doc => {console.log(doc)}) */
-
 mongoose.connect('mongodb://localhost/links', { useNewUrlParser: true, useUnifiedTopology: true })
 
 let db = mongoose.connection;
@@ -63,3 +49,18 @@ app.listen(port, () => console.log(`Example app listening on port ${port}`))
 }).catch(error=>{
     console.log(error)
 }) */
+
+
+/* const personSchema = new mongoose.Schema({
+    name: String,
+    age: Number
+})
+
+const Person = mongoose.model('Person', personSchema)
+
+let person = new Person({
+    name: "Gabriel",
+    age: 23
+})
+
+person.save().then(doc => {console.log(doc)}) */
